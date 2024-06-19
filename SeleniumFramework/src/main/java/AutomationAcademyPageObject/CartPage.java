@@ -27,8 +27,7 @@ public class CartPage extends AbstarctComponents {
 
 	public Boolean verifyProductDisplay(String productName) {
 
-		Boolean match = productTitles.stream()
-				.anyMatch(cardProduct -> cardProduct.getText().equalsIgnoreCase(productName));
+		Boolean match = productTitles.stream().anyMatch(cardProduct -> cardProduct.getText().equalsIgnoreCase(productName));
 		return match;
 
 	}
