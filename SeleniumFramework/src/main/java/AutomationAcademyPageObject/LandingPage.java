@@ -43,7 +43,7 @@ public class LandingPage extends AbstarctComponents{
 		driver.get("https://rahulshettyacademy.com/client");
 	}
 
-	public String getErrorMessage() {
+	public String getErrorMessage() throws InterruptedException {
 		waitForWebElementToApear(errorMessage);
 		return errorMessage.getText();
 	}

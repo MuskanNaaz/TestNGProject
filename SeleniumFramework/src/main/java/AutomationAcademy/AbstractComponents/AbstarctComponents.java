@@ -22,12 +22,14 @@ public class AbstarctComponents {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void waitForElementToApear(By findBy) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-		wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
+	public void waitForElementToApear(By findBy) throws InterruptedException {
+		Thread.sleep(2000);
+		//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+		//wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
 
 	}
-	public void waitForWebElementToApear(WebElement findBy) {
+	public void waitForWebElementToApear(WebElement findBy) throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.visibilityOf(findBy));
 

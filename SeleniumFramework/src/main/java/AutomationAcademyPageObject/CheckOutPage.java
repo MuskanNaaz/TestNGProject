@@ -34,7 +34,7 @@ public class CheckOutPage extends AbstarctComponents {
 	
 	By countryList = By.cssSelector(".ta-item");	
 
-	public void addCountry(String countryName) {
+	public void addCountry(String countryName) throws InterruptedException {
 		Actions a = new Actions(driver);	
 		a.sendKeys(countrySelect, countryName).build().perform();
 		waitForElementToApear(countryList);

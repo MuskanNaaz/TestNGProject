@@ -35,7 +35,7 @@ public class SubmitOrderTest extends BaseTest {
 		CartPage cartPage = productCatalogue.goTocartPage();
 		Boolean match = cartPage.verifyProductDisplay(input.get("product"));
 
-		Assert.assertFalse(match);
+		Assert.assertTrue(match);
 		CheckOutPage checkOutPage = cartPage.checkOut();
 		checkOutPage.addCountry("India");
 		ConfirmationPage confirmationPage = checkOutPage.submitOrder();

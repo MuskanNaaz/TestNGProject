@@ -31,12 +31,12 @@ public class ProductCatalogue extends AbstarctComponents {
 	By addToCart = By.cssSelector(".card-body button:last-of-type");
 	By toastMessage = By.cssSelector("#toast-container");
 
-	public List<WebElement> getProductList() {
+	public List<WebElement> getProductList() throws InterruptedException {
 		waitForElementToApear(productBy);
 		return products;
 	}
 
-	public WebElement getProductByName(String productName) {
+	public WebElement getProductByName(String productName) throws InterruptedException {
 		WebElement prod = getProductList().stream()
 				.filter(product -> product.findElement(By.cssSelector("b")).getText().equals(productName)).findFirst()
 				.orElse(null);

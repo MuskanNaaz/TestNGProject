@@ -11,6 +11,7 @@ import AutomationAcademy.AbstractComponents.AbstarctComponents;
 
 public class OrderPage extends AbstarctComponents {
 	WebDriver driver;
+	
 
 	public OrderPage(WebDriver driver) {
 		super(driver);
@@ -18,7 +19,7 @@ public class OrderPage extends AbstarctComponents {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(css = ".totalRow button")
+	@FindBy(xpath = "//*[@class = 'btn btn-primary col-md-2']")
 	WebElement checkOut;
 
 	@FindBy(css = "tr td:nth-child(3)")

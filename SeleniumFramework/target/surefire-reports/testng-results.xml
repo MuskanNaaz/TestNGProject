@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-19T11:16:50 SAST" name="Suite" finished-at="2024-06-19T11:16:50 SAST" duration-ms="303">
+  <suite started-at="2024-06-19T16:20:23 SAST" name="Suite" finished-at="2024-06-19T16:20:24 SAST" duration-ms="984">
     <groups>
       <group name="Purchase">
         <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" name="submitOrder" class="AutomationAcademy.SubmitOrderTest"/>
@@ -11,9 +11,9 @@
         <method signature="ErrorValidation.loginErrorValidation()[pri:0, instance:AutomationAcademy.ErrorValidation@41709512]" name="loginErrorValidation" class="AutomationAcademy.ErrorValidation"/>
       </group> <!-- ErrorValadiation -->
     </groups>
-    <test started-at="2024-06-19T11:16:50 SAST" name="Error Validation" finished-at="2024-06-19T11:16:50 SAST" duration-ms="83">
+    <test started-at="2024-06-19T16:20:23 SAST" name="Error Validation" finished-at="2024-06-19T16:20:23 SAST" duration-ms="316">
       <class name="AutomationAcademy.ErrorValidation">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationAcademy.ErrorValidation@41709512]" started-at="2024-06-19T11:16:50 SAST" name="launchApplication" finished-at="2024-06-19T11:16:50 SAST" duration-ms="14" status="FAIL">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationAcademy.ErrorValidation@41709512]" started-at="2024-06-19T16:20:23 SAST" name="launchApplication" finished-at="2024-06-19T16:20:23 SAST" duration-ms="28" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because "browserName" is null]]>
@@ -54,7 +54,7 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginErrorValidation()[pri:0, instance:AutomationAcademy.ErrorValidation@41709512]" started-at="2024-06-19T11:16:50 SAST" name="loginErrorValidation" finished-at="2024-06-19T11:16:50 SAST" duration-ms="0" status="SKIP">
+        <test-method signature="loginErrorValidation()[pri:0, instance:AutomationAcademy.ErrorValidation@41709512]" started-at="2024-06-19T16:20:23 SAST" name="loginErrorValidation" finished-at="2024-06-19T16:20:23 SAST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because "browserName" is null]]>
@@ -95,7 +95,7 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationAcademy.ErrorValidation@41709512]" started-at="2024-06-19T11:16:50 SAST" name="tearDown" finished-at="2024-06-19T11:16:50 SAST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationAcademy.ErrorValidation@41709512]" started-at="2024-06-19T16:20:23 SAST" name="tearDown" finished-at="2024-06-19T16:20:23 SAST" duration-ms="2" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null]]>
@@ -136,7 +136,7 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationAcademy.ErrorValidation@41709512]" started-at="2024-06-19T11:16:50 SAST" name="launchApplication" finished-at="2024-06-19T11:16:50 SAST" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationAcademy.ErrorValidation@41709512]" started-at="2024-06-19T16:20:23 SAST" name="launchApplication" finished-at="2024-06-19T16:20:23 SAST" duration-ms="1" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because "browserName" is null]]>
@@ -177,7 +177,7 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="productValidation()[pri:0, instance:AutomationAcademy.ErrorValidation@41709512]" started-at="2024-06-19T11:16:50 SAST" name="productValidation" finished-at="2024-06-19T11:16:50 SAST" duration-ms="0" status="SKIP">
+        <test-method signature="productValidation()[pri:0, instance:AutomationAcademy.ErrorValidation@41709512]" started-at="2024-06-19T16:20:23 SAST" name="productValidation" finished-at="2024-06-19T16:20:23 SAST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because "browserName" is null]]>
@@ -218,7 +218,7 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationAcademy.ErrorValidation@41709512]" started-at="2024-06-19T11:16:50 SAST" name="tearDown" finished-at="2024-06-19T11:16:50 SAST" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationAcademy.ErrorValidation@41709512]" started-at="2024-06-19T16:20:23 SAST" name="tearDown" finished-at="2024-06-19T16:20:23 SAST" duration-ms="2" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null]]>
@@ -261,9 +261,9 @@ at java.base/java.lang.Thread.run(Thread.java:840)
         </test-method> <!-- tearDown -->
       </class> <!-- AutomationAcademy.ErrorValidation -->
     </test> <!-- Error Validation -->
-    <test started-at="2024-06-19T11:16:50 SAST" name="Submit Order Test" finished-at="2024-06-19T11:16:50 SAST" duration-ms="303">
+    <test started-at="2024-06-19T16:20:23 SAST" name="Submit Order Test" finished-at="2024-06-19T16:20:24 SAST" duration-ms="984">
       <class name="AutomationAcademy.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" started-at="2024-06-19T11:16:50 SAST" name="launchApplication" finished-at="2024-06-19T11:16:50 SAST" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" started-at="2024-06-19T16:20:24 SAST" name="launchApplication" finished-at="2024-06-19T16:20:24 SAST" duration-ms="2" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because "browserName" is null]]>
@@ -304,7 +304,7 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" started-at="2024-06-19T11:16:50 SAST" name="submitOrder" data-provider="getData" finished-at="2024-06-19T11:16:50 SAST" duration-ms="0" status="SKIP">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" started-at="2024-06-19T16:20:24 SAST" name="submitOrder" data-provider="getData" finished-at="2024-06-19T16:20:24 SAST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -352,7 +352,7 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" started-at="2024-06-19T11:16:50 SAST" name="tearDown" finished-at="2024-06-19T11:16:50 SAST" duration-ms="2" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" started-at="2024-06-19T16:20:24 SAST" name="tearDown" finished-at="2024-06-19T16:20:24 SAST" duration-ms="1" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null]]>
@@ -393,7 +393,7 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" started-at="2024-06-19T11:16:50 SAST" name="launchApplication" finished-at="2024-06-19T11:16:50 SAST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" started-at="2024-06-19T16:20:24 SAST" name="launchApplication" finished-at="2024-06-19T16:20:24 SAST" duration-ms="2" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because "browserName" is null]]>
@@ -434,7 +434,7 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" started-at="2024-06-19T11:16:50 SAST" name="submitOrder" data-provider="getData" finished-at="2024-06-19T11:16:50 SAST" duration-ms="0" status="SKIP">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" started-at="2024-06-19T16:20:24 SAST" name="submitOrder" data-provider="getData" finished-at="2024-06-19T16:20:24 SAST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -482,7 +482,7 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" started-at="2024-06-19T11:16:50 SAST" name="tearDown" finished-at="2024-06-19T11:16:50 SAST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" started-at="2024-06-19T16:20:24 SAST" name="tearDown" finished-at="2024-06-19T16:20:24 SAST" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null]]>
@@ -523,7 +523,7 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="OrderHistoryTest()[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" started-at="2024-06-19T11:16:50 SAST" name="OrderHistoryTest" finished-at="2024-06-19T11:16:50 SAST" depends-on-methods="AutomationAcademy.SubmitOrderTest.submitOrder" duration-ms="0" status="SKIP">
+        <test-method signature="OrderHistoryTest()[pri:0, instance:AutomationAcademy.SubmitOrderTest@3abada5a]" started-at="2024-06-19T16:20:24 SAST" name="OrderHistoryTest" finished-at="2024-06-19T16:20:24 SAST" depends-on-methods="AutomationAcademy.SubmitOrderTest.submitOrder" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method AutomationAcademy.SubmitOrderTest.OrderHistoryTest() on instance AutomationAcademy.SubmitOrderTest@3abada5a depends on not successfully finished methods 

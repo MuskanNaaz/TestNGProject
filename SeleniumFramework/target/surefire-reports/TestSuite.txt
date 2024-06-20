@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 8, Errors: 0, Skipped: 5, Time elapsed: 1.304 s <<< FAILURE! -- in TestSuite
-AutomationAcademy.ErrorValidation.launchApplication -- Time elapsed: 0.774 s <<< FAILURE!
+Tests run: 13, Failures: 8, Errors: 0, Skipped: 5, Time elapsed: 3.987 s <<< FAILURE! -- in TestSuite
+AutomationAcademy.ErrorValidation.launchApplication -- Time elapsed: 2.154 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "browserName" is null
 	at AutomationAcademy.TestComponnets.BaseTest.initializDriver(BaseTest.java:43)
 	at AutomationAcademy.TestComponnets.BaseTest.launchApplication(BaseTest.java:95)
@@ -33,7 +33,7 @@ java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSeq
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
 
-AutomationAcademy.ErrorValidation.tearDown -- Time elapsed: 0.009 s <<< FAILURE!
+AutomationAcademy.ErrorValidation.tearDown -- Time elapsed: 0.033 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
 	at AutomationAcademy.TestComponnets.BaseTest.tearDown(BaseTest.java:103)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -64,7 +64,7 @@ java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.clo
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
 
-AutomationAcademy.ErrorValidation.launchApplication -- Time elapsed: 0.013 s <<< FAILURE!
+AutomationAcademy.ErrorValidation.launchApplication -- Time elapsed: 0.053 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "browserName" is null
 	at AutomationAcademy.TestComponnets.BaseTest.initializDriver(BaseTest.java:43)
 	at AutomationAcademy.TestComponnets.BaseTest.launchApplication(BaseTest.java:95)
@@ -95,7 +95,7 @@ java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSeq
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
 
-AutomationAcademy.ErrorValidation.tearDown -- Time elapsed: 0.002 s <<< FAILURE!
+AutomationAcademy.ErrorValidation.tearDown -- Time elapsed: 0.010 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
 	at AutomationAcademy.TestComponnets.BaseTest.tearDown(BaseTest.java:103)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -126,7 +126,7 @@ java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.clo
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
 
-AutomationAcademy.SubmitOrderTest.launchApplication -- Time elapsed: 0.212 s <<< FAILURE!
+AutomationAcademy.SubmitOrderTest.launchApplication -- Time elapsed: 0.670 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "browserName" is null
 	at AutomationAcademy.TestComponnets.BaseTest.initializDriver(BaseTest.java:43)
 	at AutomationAcademy.TestComponnets.BaseTest.launchApplication(BaseTest.java:95)
@@ -157,7 +157,7 @@ java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSeq
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
 
-AutomationAcademy.SubmitOrderTest.tearDown -- Time elapsed: 0.003 s <<< FAILURE!
+AutomationAcademy.SubmitOrderTest.tearDown -- Time elapsed: 0.001 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
 	at AutomationAcademy.TestComponnets.BaseTest.tearDown(BaseTest.java:103)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -188,7 +188,7 @@ java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.clo
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
 
-AutomationAcademy.SubmitOrderTest.launchApplication -- Time elapsed: 0.005 s <<< FAILURE!
+AutomationAcademy.SubmitOrderTest.launchApplication -- Time elapsed: 0.006 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "browserName" is null
 	at AutomationAcademy.TestComponnets.BaseTest.initializDriver(BaseTest.java:43)
 	at AutomationAcademy.TestComponnets.BaseTest.launchApplication(BaseTest.java:95)
